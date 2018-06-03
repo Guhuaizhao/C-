@@ -4,18 +4,15 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int i,j,a,n;
-	int sum=0;
-	int term=0;
-	printf("请输入a\n");
-	scanf("%d",&a);
-	printf("请输入n\n");
+	int i,n;
+	long int sum=0,f=1;
+	printf("请输入n的值\n");
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 	{
-		term=term*10+a;
-		sum=sum+term;
+		f=f*i;
+		sum=sum+f;
 	}
-	printf("a+aa+aaa+...+a...a=%d",sum);
+	printf("%d\n",sum);
 	return 0;
 }

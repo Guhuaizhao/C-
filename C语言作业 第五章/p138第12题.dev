@@ -1,6 +1,6 @@
 [Project]
-FileName=p137第5题.dev
-Name=p137第5题
+FileName=p138第12题.dev
+Name=p138第12题
 Type=1
 Ver=2
 ObjFiles=
@@ -27,8 +27,8 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=1
-CompilerSettings=0000000000000000001000000
+CompilerSet=0
+CompilerSettings=0000000000000000000000000
 UnitCount=1
 
 [VersionInfo]
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=p137.5.c
+FileName=p138.12.c
 CompileCpp=0
 Folder=
 Compile=1
